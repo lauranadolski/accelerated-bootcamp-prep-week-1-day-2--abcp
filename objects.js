@@ -17,6 +17,9 @@ course["instructor"] = "Sophie DeBenedetto"
 
 Object.assign(course, {start_date: "2017-01-01"})
 
+
+//////////
+
 Object.assign({}, course, {start_date: "2017-01-01"})
 
 delete course["title"]
